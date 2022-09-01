@@ -1,0 +1,24 @@
+{
+    "name": "appkita/phpwebsocket",
+    "description": "Library for websocket in PHP",
+    "type": "library",
+    "keywords": ["socket", "websocket", "codeigniter", "library", "package"],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Appkita\\Phpwebsocket\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "gunantos",
+            "email": "gunanto.simamora@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
